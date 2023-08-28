@@ -54,11 +54,23 @@ body {
 
   .subtext {
     color: #E5E7EB;
-    padding: 16px;
   }
 
   .sign-up {
+    display: flex;
     padding: 16px;
     background-color: #3882F6;
     Color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .left {
+    margin: 60px;
   }
