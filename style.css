@@ -37,6 +37,8 @@ body {
     background: #1f2937;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 60px;
+    margin-top: 40px;
 
   }
 
@@ -85,6 +87,7 @@ body {
     margin: 30px;
     padding-right: 100px;
   }
+  
 .container-2 {
     background-color: white;
 }
