@@ -85,3 +85,13 @@ body {
     margin: 30px;
     padding-right: 100px;
   }
+.container-2 {
+    background-color: white;
+}
+
+  .container-2 img {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+  }
