@@ -1,9 +1,9 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background: #1f2937;
 }
 
 .header {
-    background: #1f2937;
     display: flex;
     justify-content: space-around;
     Color: #F9FAF8;
@@ -15,6 +15,7 @@ body {
 .logo {
     font-weight: bold;
     font-size: 24px;
+    display: flex;
 }
 
 .header a {
@@ -47,9 +48,9 @@ body {
   
   img {
    display: flex;
-   width: 300px;
+   width: 375px;
    height: auto;
-   padding: 30px;
+   align-self: center;
   }
 
   .subtext {
@@ -72,12 +73,15 @@ body {
   }
 
   .left {
-    margin: 60px;
+    padding-left: 100px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-self: center;
   }
 
   .right {
     display: flex;
-    flex-direction: column;
+    margin: 30px;
+    padding-right: 100px;
   }
