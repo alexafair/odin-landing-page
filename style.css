@@ -90,8 +90,6 @@ img {
 .container-2 {
   background-color: white;
   padding: 60px;
-  align-items: center;
-  justify-content: center;
 }
 
 .information-header {
@@ -111,22 +109,21 @@ img {
   border-width: 5px;
   border-color: #4e8ef6;
   border-style: solid;
+  margin-bottom: 10px;
 }
 
 .boxes {
   display: flex;
   justify-content: center;
-  gap: 90px;
+  gap: 50px;
 }
 
 .container-2 .text {
   text-align: center;
-  display: flex;
-  justify-content: center;
 }
 
 .info {
-  max-width: 100px;
+  max-width: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
