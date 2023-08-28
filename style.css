@@ -131,9 +131,20 @@ img {
 
 .container-3 {
     background-color: #e4e7eb;
+    padding: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
 .quote {
-    font-style: italic;
-    font-size: 36px;
+   display: flex;
+   font-style: italic;
+   font-size: 36px;
+   margin: 0;
+}
+
+.attribution {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
 }
