@@ -128,3 +128,12 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.container-3 {
+    background-color: #e4e7eb;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+}
