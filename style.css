@@ -5,17 +5,18 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
-  Color: #F9FAF8;
+  justify-content: space-between;
   font-family: "Roboto";
   align-items: center;
-  padding: 25px;
+  padding: 10px;
 }
 
 .logo {
   font-weight: bold;
   font-size: 24px;
   display: flex;
+  padding-left: 175px;
+  Color: #F9FAF8;
 }
 
 .header a {
@@ -31,20 +32,23 @@ body {
   gap: 20px;
   color: #E5E7EB;
   font-size: 18px;
+  padding-right: 175px;
 }
 
 .container-1 {
   background: #1f2937;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 60px;
   margin-top: 40px;
+  gap: 50px;
 }
 
 .container-1 .hero-text {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+  max-width: 400px;
 }
   
 img {
@@ -56,6 +60,7 @@ img {
 
 .subtext {
   color: #E5E7EB;
+  max-width: 400px;
 }
 
 .sign-up {
@@ -74,8 +79,9 @@ img {
 }
 
 .left {
-  padding-left: 100px;
+  padding-left: 175px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-self: center;
@@ -84,7 +90,7 @@ img {
 .right {
   display: flex;
   margin: 30px;
-  padding-right: 100px;
+  padding-right: 175px;
 }
 
 .container-2 {
@@ -120,6 +126,7 @@ img {
 
 .container-2 .text {
   text-align: center;
+  color: #858c95;
 }
 
 .info {
@@ -132,8 +139,8 @@ img {
 .container-3 {
     background-color: #e4e7eb;
     padding: 100px;
-    padding-left: 180px;
-    padding-right: 180px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .quote {
@@ -141,6 +148,7 @@ img {
    font-style: italic;
    font-size: 36px;
    margin: 0;
+   color: #1F2937;
 }
 
 .attribution {
