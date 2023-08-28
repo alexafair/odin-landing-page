@@ -1,3 +1,7 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .header {
     background: #1f2937;
     display: flex;
@@ -32,13 +36,13 @@
     background: #1f2937;
     display: flex;
     justify-content: space-around;
+
   }
 
   .container-1 .hero-text {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
-   margin: 30px;
   }
   
   img {
@@ -51,4 +55,10 @@
   .subtext {
     color: #E5E7EB;
     padding: 16px;
+  }
+
+  .sign-up {
+    padding: 16px;
+    background-color: #3882F6;
+    Color: white;
   }
