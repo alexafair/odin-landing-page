@@ -161,12 +161,17 @@ img {
 
 .container-4 {
     background-color: white;
-    color: white
+    color: white;
+    justify-content: center;
 }
 
 .cta {
   background-color: #3882F6;  
   margin: 50px;
+  padding: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .button {
