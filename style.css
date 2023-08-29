@@ -167,15 +167,22 @@ img {
 
 .cta {
   background-color: #3882F6;  
-  margin: 50px;
+  margin: 100px 150px 100px 150px;
   padding: 50px;
   border-radius: 8px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
-.button {
+.bottom-button {
     background-color: #3882F6; 
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    width: 110px;
+    height: 30px;
 }
 
 .bottom-header {
