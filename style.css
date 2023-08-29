@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background: #1f2937;
+  margin: 0;
 }
 
 .header {
@@ -9,6 +9,7 @@ body {
   font-family: "Roboto";
   align-items: center;
   padding: 10px;
+  background: #1f2937;
 }
 
 .logo {
@@ -39,8 +40,8 @@ body {
   background: #1f2937;
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
-  margin-top: 40px;
+  padding-bottom: 60px;
+  padding-top: 40px;
   gap: 50px;
 }
 
@@ -96,6 +97,7 @@ img {
 .container-2 {
   background-color: white;
   padding: 60px;
+  padding-bottom: 130px;
 }
 
 .information-header {
@@ -155,4 +157,22 @@ img {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+}
+
+.container-4 {
+    background-color: white;
+    color: white
+}
+
+.cta {
+  background-color: #3882F6;  
+  margin: 50px;
+}
+
+.button {
+    background-color: #3882F6; 
+}
+
+.bottom-header {
+    font-weight: bold;
 }
