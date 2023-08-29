@@ -188,3 +188,15 @@ img {
 .bottom-header {
     font-weight: bold;
 }
+
+.container-5 {
+    background-color: #1f2937;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #afb2b7;
+}
